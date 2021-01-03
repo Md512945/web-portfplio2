@@ -1,0 +1,18 @@
+h1{
+    font-size: 50px;
+}
+body{
+    font-family: 'Redressed', cursive;
+}
+.color{
+    color: orange;
+}
+.hlf-width{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.hlf-width img{
+    width: 90%;
+}
