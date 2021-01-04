@@ -1,6 +1,12 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 body{
     font-family: 'Redressed', cursive;
     margin: 0px;
@@ -32,4 +38,30 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.dream{
+    background-image: url("imgs/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ex{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 7px;
+    height: 80%;
+    background-color: white;
+}
+.ex-area{
+    background-image: url("imgs/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
 }
